@@ -1,0 +1,55 @@
+@import '../../Variable.scss';
+
+.About {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: $bg-light-Mode-color;
+    height: 60vh;
+
+    @media screen and(max-width:768px) {
+        flex-direction: column;
+        height: 70vh;
+
+    }
+
+    .About__first {
+        width: 500px;
+
+        img {
+            width: 350px;
+            object-fit: cover;
+        }
+
+        @media screen and(max-width:768px) {
+            width: 350px;
+
+        }
+    }
+
+    .About__middle {
+        width: 50%;
+        opacity: 90%;
+        margin: 2rem;
+
+        @media screen and(max-width:768px) {
+            width: 70%;
+            margin-bottom: 2rem;
+            font-size: 1.50rem;
+        }
+
+        h4 {
+            color: $button_bg_color;
+            font-size: 2rem;
+
+            @media screen and(max-width:768px) {
+                font-size: 2.20rem;
+            }
+
+            &:hover {
+                color: $menu__hover_color;
+            }
+        }
+    }
+}

@@ -1,0 +1,83 @@
+@import '../Variable.scss';
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: $bg-dark-mode-color;
+    color: $color-dark-mode;
+    height: 8vh;
+    font-size: 16px;
+    white-space: nowrap;
+    max-width:2560px;
+    h3 {
+        margin-left: 80px;
+        transition: linear 0.3s all;
+        &:hover{
+            cursor: pointer;
+            color:$menu__hover_color;
+        }
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+
+        li {
+            margin: 10px;
+            transition: linear 0.3s all;
+            &:hover{
+                cursor: pointer;
+                color:$menu__hover_color;
+            }
+        }
+        @media screen and (max-width:768px) {
+           display: none;
+        }
+        
+    }
+
+    button {
+        border: none;
+        outline: none;
+        padding: 0.10rem 0.60rem;
+        margin-right: 10px;
+        text-decoration: none;
+        border-radius: 999px;
+        background: $button_bg_color;
+        a{
+            text-decoration: none;
+            color: $bg-light-Mode-color;
+        }
+        &:hover{
+            background:$button_hover_color;
+            cursor: pointer;
+        }
+        @media screen and (max-width:768px) {
+            display: none;
+         }
+    }
+    .fiMenu{
+        font-size: 35px;
+        margin:10px;
+        transition: linear 0.3s all;
+
+        &:hover{
+            color:$menu__hover_color;
+            cursor: pointer;
+        }
+        @media screen and(min-width:768px) {
+            display: none;
+        }
+    }
+}
+
+
+// @media screen and (max-width:768px){
+//     .navBar{
+//         ul{
+//             display: none;
+//         }
+//     }
+// }

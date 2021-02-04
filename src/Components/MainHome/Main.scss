@@ -1,0 +1,131 @@
+@import '../Variable.scss';
+
+div {
+position: relative;
+    video {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        
+        @media screen and (max-width:768px) {
+            width: 140%;  
+        }
+
+        @media screen and (max-width:568px) {
+            width: 150%;
+           
+        }
+
+        @media screen and (max-width:468px) {
+            width: 190%;
+           
+        }
+    }
+
+    .mainHome {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        margin: auto;
+        padding: 20px;
+
+        @media screen and (max-width:768px) {
+            flex-direction: column;
+            height: 0vh;
+        }
+
+        @media screen and (max-width:1068px) {
+           height: 70vh;
+           
+        }
+
+        .text {
+            color: $color-dark-mode;
+            font-size: 1.59rem;
+            width: 30%;
+            white-space: wrap;
+
+            @media screen and (max-width:768px) {
+                width: 80%;
+                font-size: 1.30rem;
+            }
+            @media screen and (max-width:1068px) {
+                width: 70%;
+                font-size: 1.30rem;
+             }
+        }
+
+        .button {
+            button {
+                border: none;
+                outline: none;
+                padding: .80rem 2rem;
+                margin: 20px 0;
+                font-size: 1.50rem;
+                border-radius: 10px;
+                background: $button_bg_color;
+                transition: linear all 0.5s;
+
+                &:hover {
+                    background: $menu__hover_color;
+
+                }
+                @media screen and (max-width:768px) {
+                    width: 100%;
+                    font-size: 1.30rem;
+                    white-space: nowrap;
+
+                }
+                @media screen and (max-width:470px) {
+                    width: 100%;
+                    font-size: 1.30rem;
+                    white-space: nowrap;
+                padding: .80rem 1rem;
+
+                }
+                @media screen and (max-width:1068px) {
+                    width: 30%;
+                    font-size: 1rem;
+                    white-space: nowrap;
+                 }
+            }
+        }
+
+        .main_art {
+            img {
+                width: 600px;
+                animation: imgAmination infinite 0.5s;
+                transition: linear all 0.8s;
+
+                @media screen and (max-width:1068px) {
+                   width: 400px;
+                animation:  none;
+
+                 }
+                @media screen and (max-width:768px) {
+                    display: none;
+                }
+            }
+
+            @keyframes imgAmination {
+                from {
+                    width: 699px;
+                }
+
+                50% {
+                    width: 700px;
+
+                }
+
+                100% {
+                    width: 701px;
+
+                }
+            }
+
+        }
+    }
+}
