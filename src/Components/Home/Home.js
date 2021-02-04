@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Main from '../MainHome/Main';
 import Navbar from '../Navabar/Navbar'
 import About from '../pages/About/About';
+import Services from '../pages/Services/Services';
 import Sidebar from '../Sidebar/Sidebar'
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
             <Sidebar toogle={toggle} closeToggle={makeToggle} />
             <Main/>
             <About/>
+            <Services/>
         </>
     )
 }

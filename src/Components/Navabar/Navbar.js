@@ -8,12 +8,14 @@ const Navbar = ({toogle}) => {
         <>
             <nav className="navBar">
                 <div>
+
                     <h3>Mr-Morsalin</h3>
                 </div>
                 <div>
                     <ul>
                         <li>Home</li>
-                        <li>About</li>
+                        <li> 
+                           About</li>
                         <li>Services</li>
                         <li>Contact</li>
                     </ul>

@@ -17,6 +17,7 @@
             cursor: pointer;
             color:$menu__hover_color;
         }
+       
     }
 
     ul {
@@ -27,10 +28,12 @@
         li {
             margin: 10px;
             transition: linear 0.3s all;
+         
             &:hover{
                 cursor: pointer;
                 color:$menu__hover_color;
             }
+            
         }
         @media screen and (max-width:768px) {
            display: none;
