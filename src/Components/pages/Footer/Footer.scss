@@ -1,0 +1,34 @@
+@import '../../Variable.scss';
+
+.main_footer{
+
+    background: rgb(27, 17, 17);
+    color: $bg-light-Mode-color;
+
+.footer{
+    height: 60vh;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    align-items: center;
+    .footer__first{
+        position: relative;
+        margin: 0px 2rem;
+        img{
+            position: absolute;
+            width: 50px;
+            object-fit: cover;
+            border-radius: 999px;
+        }
+        h4{
+            margin-left: 4rem;
+        }
+    }
+}
+
+.footer__copy__right{
+    text-align: center;
+    font-size: 1.50rem;
+}
+}
