@@ -9,7 +9,7 @@ const Navbar = ({toogle}) => {
             <nav className="navBar">
                 <div>
 
-                    <h3>Mr-Morsalin</h3>
+                    <h3 style={{color:"white"}}>Mr-Morsalin</h3>
                 </div>
                 <div>
                     <ul>
