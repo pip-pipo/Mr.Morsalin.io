@@ -1,4 +1,4 @@
-# chekout the Final UI-DESIGN
+# [chekout the Final UI-DESIGN](https://gracious-heisenberg-1f7fda.netlify.app/)
 
 <img src="https://res.cloudinary.com/codecaamp/image/upload/v1612438012/Screenshot_74_gvfuxa.png" alt="img">
 
