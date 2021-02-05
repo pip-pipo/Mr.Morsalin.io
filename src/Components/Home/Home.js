@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Main from '../MainHome/Main';
 import Navbar from '../Navabar/Navbar'
 import About from '../pages/About/About';
+import Contact from '../pages/Contact/Contact';
 import Services from '../pages/Services/Services';
 import Sidebar from '../Sidebar/Sidebar'
 
@@ -19,6 +20,7 @@ const Home = () => {
             <Main/>
             <About/>
             <Services/>
+            <Contact/>
         </>
     )
 }

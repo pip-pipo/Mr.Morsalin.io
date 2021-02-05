@@ -9,7 +9,7 @@ const Main = () => {
             </video>
             <div className="mainHome">
                 <div className="text">Hi , i am Morsalin 😊👋🏻.I am a Full Stack Web Developer  Programmer also A Freelancer ✔  .. specializiing in mostly JS, but also write Python, PHP and some other stuff.
-                <div className="button"><button>Hire Me</button></div>
+                <div className="button"><button><a href="https://www.fiverr.com/mr_morsalin?up_rollout=true"> Hire Me</a></button></div>
                 </div>
                
                 <div className="main_art">

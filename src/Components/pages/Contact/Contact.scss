@@ -1,0 +1,36 @@
+@import '../../Variable.scss';
+
+div{
+    h3{
+        text-align: center;
+        font-size: 2rem;
+        margin-top: 8rem;
+        &:hover{
+            color:$button_bg_color
+        }
+    }
+.social__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $bg-light-Mode-color;
+    height: 50vh;
+    margin-top: 2rem;
+
+   ul{
+       list-style: none;
+       display:flex;
+       padding: 0;
+       li{
+           margin: 0 2rem;
+          transition: linear all 400ms;
+          @media screen and(max-width:768px) {
+           margin: 0 1rem;
+            
+          }
+          &:hover{
+              color:$button_bg_color
+          }
+       }
+   }
+}}

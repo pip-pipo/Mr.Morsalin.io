@@ -1,5 +1,8 @@
 @import '../Variable.scss';
-
+a{
+    text-decoration: none;
+    color: $bg-light-Mode-color;
+}
 div {
 position: relative;
     video {
